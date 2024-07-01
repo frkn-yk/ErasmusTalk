@@ -1,0 +1,108 @@
+body {
+    background: #41E2BA;
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: rgb(148, 84, 7);;
+   font-weight: 100;
+   font-size: 2.5rem;
+   margin-bottom: 20px;
+}
+
+.blurb p {
+    color: rgb(95, 55, 7);
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(204, 118, 13);;
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(204, 118, 13);;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: rgb(204, 118, 13);
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #41E2BA;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+
+.bttons {
+    margin-top: 80px;
+}
+.btn.btn-success {
+    margin-right: 50px;
+    background-color: rgb(105, 60, 5);
+    color: rgb(249, 210, 162);
+}
+
+.btn.btn-info {
+   background-color: rgb(10, 173, 188);
+    color: rgb(107, 69, 23);
+}
+
+.mainHeading {
+    margin-top: 100px;
+    color: rgba(68, 38, 1, 0.542);
+    font-weight: 1000;
+}
+
+#city-image img{
+    margin-top: 20px;
+}
+
+/* .img-fluid.city {
+    margin-top: 100px; 
+    border-radius: 5%;
+    margin-right: 10px;
+} */
+
+.cuisine {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 8%;
+}
